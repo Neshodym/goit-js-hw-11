@@ -39,14 +39,15 @@ img {
   display: none;
 }
 
-.search-form-wrapper{
+.search-form-wrapper {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
   position: fixed;
   top: 0;
-  left:0;
-  background-image: linear-gradient(to right, #4ab2f3, #f8fe4d);
+  left: 0;
+  background-color: #0e98b7;
+  /* linear-gradient(to right, #4ab2f3, #f5f5f1); */
 }
 
 .search-form {
@@ -70,7 +71,7 @@ img {
   align-items: center;
   min-width: 50px;
   border: none;
-  background-color: rgb(169,167,167);
+  background-color: rgb(169, 167, 167);
   border-radius: 4px;
   cursor: pointer;
 }
@@ -80,14 +81,13 @@ img {
   background-color: rgb(190, 185, 185);
 }
 
-.gallery{
+.gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 60px;
   margin-left: -10px;
   margin-top: -10px;
-
 }
 
 .gallery__link {
@@ -101,11 +101,11 @@ img {
 
 .gallery__link:hover,
 .gallery__link:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-        1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.photo-card{
+.photo-card {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -126,12 +126,11 @@ img {
   font-size: 14px;
 }
 
-.info-item:not(:last-child){
+.info-item:not(:last-child) {
   margin-right: 5px;
 }
 
-
-.load-more{
+.load-more {
   display: block;
   margin: 25px auto 0 auto;
   min-width: 100px;
@@ -139,24 +138,24 @@ img {
 
   border: none;
   border-radius: 5px;
-  background-color: #4ab2f3;
+  background-color: #0e98b7;
   color: white;
   cursor: pointer;
 }
 
 .load-more:hover,
-.load-more:focus{
+.load-more:focus {
   background-color: #6db6e4;
 }
 
-.load-more.is-hidden{
+.load-more.is-hidden {
   display: none;
 }
 
-.gallery__text{
-margin-top: 20px;
-text-align: center;
+.gallery__text {
+  margin-top: 20px;
+  text-align: center;
 
-font-weight: bold;
-color: #4ab2f3;
+  font-weight: bold;
+  color: #4ab2f3;
 }

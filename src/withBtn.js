@@ -64,21 +64,7 @@ async function onSearchForm(e) {
 async function onLoadMoreBtn() {
     page += 1;
 
-    // fetchImg(query, page, perPage)
-    //     .then(({ data }) => {
-    //         const totalPages = Math.ceil(data.totalHits / perPage);
-        
-    //         if (page > totalPages) {
-    //             loadMoreBtn.classList.add('is-hidden');
-    //             alertEndOfSearch();
-    //         } else {
-    //             renderGallery(data.hits);
-    //             simpleLightbox = new SimpleLightbox('.gallery a').refresh();
-    //         }
 
-            
-    //     })
-    //     .catch(error => console.log(error));
 
     try {
         const object = await fetchImg(query, page, perPage);
